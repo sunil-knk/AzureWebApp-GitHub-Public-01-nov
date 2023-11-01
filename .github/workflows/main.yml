@@ -1,5 +1,9 @@
+name: GitHub Pages
 on:
-  workflow_dispatch:
+  push:
+    branches:
+    - main
+
 
 env:
   AZURE_WEBAPP_NAME: 'angular-github-actions-appservice'    # set this to your application's name
